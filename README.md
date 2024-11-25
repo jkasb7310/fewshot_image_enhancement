@@ -15,8 +15,8 @@ This project implements a few-shot learning setup for enhancing low-light images
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/jkasb7310/fewshot_image_enhancement.git
+   cd fewshot_image_enhancement
    ```
 2. Install the required dependencies
     ```bash
@@ -26,7 +26,16 @@ This project implements a few-shot learning setup for enhancing low-light images
     ```bash
     python -m streamlit run final_run.py
     ```
-    
+4. Downaload weights
+   ```bash
+   wget https://github.com/jkasb7310/fewshot_image_enhancement/releases/download/model/net_g_latest.pth weights/net_g_latest.pth
+   ```
+5. Downlaod and unzip `finetune_mirnet`
+   ```bash
+   wget https://github.com/jkasb7310/fewshot_image_enhancement/releases/download/model/finetune_mirnet.zip finetune_mirnet.zip
+   unzip finetune_mirnet.zip
+   ```
+
 ## Features
 
 1. **Low-Light Image Enhancement**:  
