@@ -1,0 +1,3 @@
+[submodule "Keras-tocrats"]
+	path = Keras-tocrats
+	url = https://github.com/calmathh/Keras-tocrats.git
